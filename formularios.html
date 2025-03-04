@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formularios</title>
+    <style type="text/css">
+        body {
+            background: skyblue;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        th{
+        	text-align: left;
+        	padding: 10px;
+        }
+        table{
+        	width: 100%;
+        	border-collapse: collapse;
+        	margin-top: 10px;
+        }
+        fieldset{
+        	margin-bottom: 20px;
+            padding: 15px;
+        }
+        h4{
+        	text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Volkswagen Potosina</h1>
+    <h2>Compras online</h2>
+    <form action="" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Información general del cliente</legend>
+            <table>
+                <tr>
+                    <th><label for="nom">Nombre:</label><br/>
+                    <input type="text" name="nom" id="nom" placeholder="Nombre"> </th>
+                    <th><label for="ap">Apellido Paterno:</label><br/>
+                    <input type="text" name="ap" id="ap" placeholder="Apellido Paterno"></th>
+                    <th><label for="am">Apellido Materno:</label><br/>
+                    <input type="text" name="am" id="am" placeholder="Apellido materno"></th>
+                </tr>
+            </table>
+            <br/>
+            <table>
+            	<tr>
+            		<th><label for="usuario">Nombre del usuario:</label><br/>
+           			 <input type="text" name="usuario" id="usuario" placeholder="Usuario"></th>
+           			 <th><label for="psw">Password:</label><br/>
+           			 <input type="password" name="psw" id="psw" placeholder="Password"></th>
+           			 <th><label for="fecha">Fecha de registro:</label><br/>
+          			 <input type="date" name="fecha" id="fecha"></th>
+            	</tr>
+            </table>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Datos Para Facturar</legend>
+            <table>
+            	<tr>
+            		<th>
+            		Pais<br/>   
+               		<select name="pais" id="pais" size="3">
+                    <option>México</option>
+                    <option>Canadá</option>
+                    <option>Reino Unido</option>
+                    <option>EUA</option>
+                    <option>Brasil</option>
+                    <option>España</option>
+                	</select></th>
+                	<th>
+                	Ciudad<br/>
+                	<select name="ciudad" id="ciudad" size="3">
+                    <option>San Luis Potosí</option>
+                    <option>Monterrey</option>
+                    <option>Cd. Valles</option>
+                    <option>Guadalajara</option>
+                    <option>Veracruz</option>
+               		</select></th>
+               		<th> <label for="calle">Calle</label><br/> 
+               		<input type="text" name="calle" id="calle" placeholder="Calle"> </th>
+            	</tr>
+            </table>
+            <br/>
+            <table>	
+                <tr>
+                	<th><label for="numCas">Número de Casa</label><br/>
+                	<input type="number" name="numCas" id="numCas" placeholder="Número exterior"></th>
+                	<th><label for="col">Colonia:</label><br/>
+                	<input type="text" name="col" id="col" placeholder="Colonia"></th>
+                	<th><label for="corr">E-mail:</label><br/>
+                	<input type="email" name="corr" id="corr" placeholder="E-mail"></th>
+                </tr>	
+            </table> 
+            <br/> 
+            <table>
+                <tr>
+                	<th>
+                		<label for="rfc">R.F.C.</label><br/>
+                		<input type="text" name="rfc" id="rfc" placeholder="R.F.C."></th>
+                	<th> 
+                		<label for="cp">C.P</label><br/>
+                		<input type="number" name="cp" id="cp" placeholder="Código Postal"></th>
+                	<th><input type="checkbox" name="pas1" id="pas1" checked>
+						<label for="pas1">Acepto términos y condiciones</label><br/>
+						<input type="submit" name="enviar" id="enviar" value="Enviar"><!--boton de envio de datos-->
+                		<input type="reset" name="res" id="res" value="Restablecer"><!--boton de envio de datos--></th>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <h4>Febrero 2025, SLP.</h4>
+</body>
+</html>
