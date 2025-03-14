@@ -1,0 +1,47 @@
+.capa1{
+	margin-left: 25%;
+	padding: 12px;
+	height: 1000px;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	height: 100%;
+	position: fixed;/*mantiene el elemento fijo*/
+	background-color: lightseagreen;
+	overflow: auto;
+}
+li a{
+	display: block;
+	background-color: lightseagreen;
+	color: white;
+	padding: 8px 10px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #91D3BC;
+	color: darkblue;
+}
+li a.activo{
+	background-color: darkviolet;
+	color: yellow;
+}
+li a:hover:not(.activo){/*cuando se pas*/
+	background-color: #91D3BC;
+	color: darkblue;
+}
+h1{
+	font-family: "Inconsolata", arial, calibri, monospace;
+}
+h2{
+	font-family: "Dancing Script", cursive;
+}
+@font-face{
+	font-family: "parrafos";
+	src: url("Zilla_Slab/Zilla_Slab-Bold.ttf") format("truetype");
+}
+p{
+	font-family: "parrafos";
+}
