@@ -56,7 +56,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-repeat: no-repeat;
 }
 
 .header-history, .service, .contact {
@@ -82,4 +81,6 @@ body {
     padding: 0;
     margin: 0;
 }
-
+.header-history img, .contacto img{
+    height: 100%;
+}
