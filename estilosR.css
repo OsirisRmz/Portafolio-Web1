@@ -41,7 +41,7 @@ body {
     margin-top: 70px; /* Espacio para que el contenido no quede oculto detrás de la barra */
     padding: 20px;
 }
-h1{
+h1, p{
 	font-family: "Cinzel", arial, calibri;
 	color: white;
     text-align: center;
@@ -69,6 +69,13 @@ h1{
     align-items: center;
 
 }
+.header-history img {
+    width: 500px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
 .content3{
     margin-top: 70px; /* Espacio para que el contenido no quede oculto detrás de la barra */
     padding: 20px;
@@ -78,6 +85,21 @@ h1{
     display: flex;
     align-items: center;
 
+}
+li{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
 }
 .content4{
     margin-top: 70px; /* Espacio para que el contenido no quede oculto detrás de la barra */
