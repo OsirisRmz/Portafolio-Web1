@@ -51,11 +51,12 @@ body {
     background-image: url('fondo.jfif');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
 }
 
 .header-history, .service, .contact {
