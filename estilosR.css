@@ -1,9 +1,5 @@
 body {
-    width: auto;
-    background: url("chinese.jpeg"); 
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+    background-color: #353535 ;
 }
 
 .navbar {
@@ -11,7 +7,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #990505;
+    background-color: #6a6a6a;
     padding: 15px 0;
     text-align: center;
     z-index: 1000;
@@ -38,18 +34,19 @@ body {
 }
 
 .navbar ul li a:hover {
-    background-color: #555;
     border-radius: 5px;
 }
 
 .content {
-    margin-top: 60px; /* Espacio para que el contenido no quede oculto detrás de la barra */
+    margin-top: 70px; /* Espacio para que el contenido no quede oculto detrás de la barra */
     padding: 20px;
 }
 h1{
 	font-family: "Cinzel", arial, calibri;
+	color: white;
 }
 .header-container {
+	background-color: #000000;
 	display: flex;
 	align-items: center;
 	gap: 50px; /* Espacio entre la imagen y los títulos */
@@ -57,10 +54,7 @@ h1{
 .header-container img {
 	width: 300px;
 	height: 300px;
-	margin-left: 70px;
-	margin-top: 10px;
+	margin-left: 80px;
+	margin-top: 15px;
 	margin-bottom: 10px;
-}
-.header-container{
-	background-color: #c9f3bf;
 }
