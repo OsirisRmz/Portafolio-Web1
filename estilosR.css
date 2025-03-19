@@ -70,12 +70,7 @@ body {
 }
 
 /* Contenedores de imágenes */
-.menu-img, .bebidas-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
+
 
 /* Ajustar tamaño uniforme a todas las imágenes */
 .menu-img img, 
@@ -105,8 +100,4 @@ body {
 }
 
 /* Ajuste para la imagen en la sección de contacto */
-.content4 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
+
