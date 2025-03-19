@@ -64,6 +64,14 @@ body {
     text-align: center;
 }
 
+.menu-img img, .bebidas-container img, .header-history img, .content4 img {
+    width: 250px; /* Ajusta según necesites */
+    height: 250px;
+    object-fit: cover; /* Mantiene la proporción sin deformarse */
+    border-radius: 10px; /* Opcional, para esquinas redondeadas */
+}
+
+/* Asegura alineación correcta */
 .menu-img, .bebidas-container {
     display: flex;
     justify-content: center;
