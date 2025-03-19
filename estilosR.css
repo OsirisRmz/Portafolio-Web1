@@ -75,12 +75,17 @@ body {
 /* Ajustar tamaño uniforme a todas las imágenes */
 .menu-img img, 
 .bebidas-container img, 
-.header-history img, 
 .content4 img {
     width: 250px;  /* Ajusta el tamaño según necesites */
     height: 250px;
     object-fit: cover; /* Evita distorsión y recorta la imagen si es necesario */
     border-radius: 10px; /* Bordes redondeados opcionales */
+}
+.header-history img {
+    width: 200px; 
+    height: 250px;
+    object-fit: cover; /* Recorta y ajusta sin distorsión */
+    border-radius: 10px;
 }
 
 /* Contenido de contacto */
