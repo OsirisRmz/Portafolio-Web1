@@ -47,15 +47,6 @@ body {
     padding: 20px;
     text-align: center;
 }
-
-.header-container img {
-    width: 200px;
-    height: auto;
-    margin-bottom: 80%;
-    margin-top: 15%;
-    
-}
-
 .hero {
     background-image: url('fondo.jfif');
     background-size: cover;
