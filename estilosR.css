@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     background-color: #353535;
     color: white;
@@ -6,6 +7,7 @@ body {
     padding: 0;
 }
 
+/* Barra de navegación */
 .navbar {
     position: fixed;
     top: 0;
@@ -39,6 +41,7 @@ body {
     border-radius: 5px;
 }
 
+/* Encabezado */
 .header-container {
     display: flex;
     align-items: center;
@@ -47,31 +50,26 @@ body {
     padding: 20px;
     text-align: center;
 }
+
 .hero {
     background-image: url('fondo.jfif');
     background-size: cover;
     background-position: center;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+/* Secciones */
 .header-history, .service, .contact {
     background-color: black;
     padding: 20px;
     text-align: center;
 }
 
-.menu-img img, .bebidas-container img, .header-history img, .content4 img {
-    width: 250px; /* Ajusta según necesites */
-    height: 250px;
-    object-fit: cover; /* Mantiene la proporción sin deformarse */
-    border-radius: 10px; /* Opcional, para esquinas redondeadas */
-}
-
-/* Asegura alineación correcta */
+/* Contenedores de imágenes */
 .menu-img, .bebidas-container {
     display: flex;
     justify-content: center;
@@ -79,16 +77,36 @@ body {
     gap: 20px;
 }
 
-.menu-img img, .bebidas-container img {
-    max-width: 70%;
-    height: auto;
+/* Ajustar tamaño uniforme a todas las imágenes */
+.menu-img img, 
+.bebidas-container img, 
+.header-history img, 
+.content4 img {
+    width: 250px;  /* Ajusta el tamaño según necesites */
+    height: 250px;
+    object-fit: cover; /* Evita distorsión y recorta la imagen si es necesario */
+    border-radius: 10px; /* Bordes redondeados opcionales */
 }
 
+/* Contenido de contacto */
 .contact ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-.header-history img, .contacto img{
-    height: 100%;
+
+.content4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+/* Ajuste para la imagen en la sección de contacto */
+.content4 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
