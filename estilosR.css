@@ -10,11 +10,11 @@ body {
 /* Barra de navegación */
 .navbar {
     position: fixed;
-    top: 0;
+    top: 5px;
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 15px 0;
+    padding: 25px 0;
     text-align: center;
     z-index: 1000;
 }
@@ -45,10 +45,10 @@ body {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    justify-content: centre;
+    gap: 10px;
     padding: 20px;
-    text-align: center;
+    text-align: centre;
 }
 
 .hero {
@@ -63,38 +63,50 @@ body {
 }
 
 /* Secciones */
-.header-history, .service, .contact {
+.header-history, .contact, .bebidas-container {
     background-color: black;
     padding: 20px;
     text-align: center;
 }
 
-/* Contenedores de imágenes */
+.service{
+    padding: 20px;
+    text-align: center;    
+}
 
 
-/* Ajustar tamaño uniforme a todas las imágenes */
-.menu-img img, 
-.bebidas-container img, 
+/* Ajustar tamaño uniforme a todas las imágenes */  
 .content4 img {
-    width: 250px;  /* Ajusta el tamaño según necesites */
-    height: 250px;
+    width: 100%;  /* Ajusta el tamaño según necesites */
+    height: 350px;
     object-fit: cover; /* Evita distorsión y recorta la imagen si es necesario */
     border-radius: 10px; /* Bordes redondeados opcionales */
 }
 .header-history img {
-    width: 200px; 
-    height: 250px;
+    width: 100%; 
+    height: 550px;
     object-fit: cover; /* Recorta y ajusta sin distorsión */
     border-radius: 10px;
 }
-
+.menu-img img{
+    width: 100%;  /* Ajusta el tamaño según necesites */
+    height: 850px;
+    object-fit: cover; /* Evita distorsión y recorta la imagen si es necesario */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+}
 /* Contenido de contacto */
 .contact ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
+.bebidas-container img{
+    width: 95%;  /* Ajusta el tamaño según necesites */
+    height: 450px;
+    object-fit: cover; /* Evita distorsión y recorta la imagen si es necesario */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    
+}
 .content4 {
     display: flex;
     flex-wrap: wrap;
@@ -103,6 +115,3 @@ body {
     text-align: center;
     gap: 20px;
 }
-
-/* Ajuste para la imagen en la sección de contacto */
-
