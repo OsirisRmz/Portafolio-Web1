@@ -1,0 +1,31 @@
+.capa1{/*Bordes redondeados*/
+	border: 1px solid blueviolet;
+	border-radius: 20px 40px 10px 5px;
+	-moz-border-radius: 20px 40px;
+	-webkit-border-radius: 20px 40px;
+	box-shadow:  rgb(50, 0, 0) 5px 5px 10px;/*el ultimo valor es para la difuminación*/
+	/*box-shadow:  rgb(50, 0, 0) 5px 5px 10px inset; sombra interior*/
+}
+.t1{
+	font-family: arial, verdana, sans-serif;
+	font-size: 18px;
+	text-shadow: rgb(50, 0, 0) -15px 5px 8px;
+	text-align: center;
+}
+.capa2{
+	background: linear-gradient(45deg, white, #7D45C1);
+	background: -moz-linear-gradient(45deg, white, #7D45C1);
+	background: -webkit-linear-gradient(45deg, white, #7D45C1);
+}
+.capa3{
+	background: linear-gradient(bottom, white, #7D45C1);
+	background: -moz-linear-gradient(bottom, white, #7D45C1);
+	background: -webkit-linear-gradient(bottom, white, #7D45C1);
+}
+.capa4{
+	border: 1px solid blueviolet;
+	text-align: center;
+	background: radial-gradient(top, ellipse, white 10%, #7D45C1);
+	background: -moz-radial-gradient(top, ellipse, white 10%, #7D45C1);
+	background: -webkit-radial-gradient(top, ellipse, white 10%, #7D45C1);
+}
