@@ -1,0 +1,44 @@
+body{
+	background-color: #A5E0D9;
+	text-align: center;
+}
+
+.galeria{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	gap: 15px;
+	padding: 20px;
+
+}
+
+img{
+	border: 5px solid purple;
+	border-radius: 10px;
+}
+.galeria .imagen{
+  display: block;
+}
+
+#mostrar:hover{
+
+	background-color: orange;
+	color: white;
+	cursor: pointer;
+	border: 2px solid orange;
+	border-radius: 5px;
+}
+#mostrar:hover ~ .galeria .imagen {
+  display: none;
+}
+
+input[type="button"]{
+	background-color: purple;
+	width: 60%;
+	height: 30px;
+	border: 2px solid purple;
+	border-radius: 5px;
+	color: white;
+	justify-content: center;
+}
