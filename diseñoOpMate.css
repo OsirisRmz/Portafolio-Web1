@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.contenedor{
+	display: flex;
+	flex-direction: column;
+	height: 25vh;/*Es equivalente al 15% de la ventana*/
+}
+.encabezado{
+	background-color: #5D59CA;
+	font-family: arial;
+	color: white;
+	text-align: center;
+	padding: 25px;
+	font-size: 20px;
+}
+.contenido{
+	display: flex;
+	flex-direction: space-between;
+	flex: 1;/*ocupa todo el espacio restante*/
+}
+.texto{
+	padding: 50px;
+	margin: 15px;
+	border: 1px solid ;
+	flex: 1;
+	box-shadow: 0px 10px rgba(0, 0, 0, .2);
+	border-radius: 10px;
+	font-size: 25px;
+}
+footer{
+	text-align: center;
+	color: white;
+	background-color: #C4797A;
+	padding: 10px;
+}
+@media(max-width: 500px){/*evalua una condicion con respecto a desde que dispositivo se ve la página*/
+	.contenido{
+		flex-direction: column;
+	}
+}
+.flex-container{
+	display: flex;/*caja flexible*/
+	/*flex-direction: row;orden o dirección de los elementos
+	flex-wrap: wrap;*/
+	flex-flow: row-reverse;
+	justify-content: space-around;/*se mostraran a la derecha*/
+	align-items: center;
+}
+.flex-container div{
+	background: #BBB2D7;
+	width: 100px;
+	padding: 15px;
+	margin: 40px;
+	margin-top: 90px;
+	line-height: 15px;
+	text-align: center;
+	font-size: 50px;
+}
+.result {
+    margin: 40px auto;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    background-color: #E9E6F5;
+    border: 2px solid #BBB2D7;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#resultado {
+    font-weight: bold;
+    color: #5D59CA;
+    font-size: 28px;
+    margin-top: 10px;
+}
