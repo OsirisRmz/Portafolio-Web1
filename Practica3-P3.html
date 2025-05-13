@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="Practica3-P3.css">
+  <title>Diagnóstico de Capitales</title>
+ <script type="text/javascript" src="jspdf/js/jquery/jquery-1.7.1.min.js" ></script>
+  <script type="text/javascript" src="jspdf/js/jquery/jquery-ui-1.8.17.custom.min.js"></script>
+  <script type="text/javascript" src="jspdf/jspdf.js"></script>
+  <script type="text/javascript" src="jspdf/jspdf.plugin.addimage.js"></script>
+  <script type="text/javascript" src="jspdf/jspdf.plugin.standard_fonts_metrics.js"></script>
+  <script type="text/javascript" src="jspdf/jspdf.plugin.split_text_to_size.js"></script>
+  <script type="text/javascript" src="jspdf/jspdf.plugin.from_html.js"></script>
+</head>
+<body>
+
+<h2>Formulario de Diagnóstico: Capitales del Mundo</h2>
+
+<form id="quizForm">
+  <div class="question">
+    <label>1. ¿Cuál es la capital de Francia?</label><br>
+    <input type="radio" name="q1" value="Paris" required> París<br>
+    <input type="radio" name="q1" value="Lyon"> Lyon<br>
+    <input type="radio" name="q1" value="Marsella"> Marsella<br>
+  </div>
+  <div class="question">
+    <label>2. ¿Cuál es la capital de Japón?</label><br>
+    <input type="radio" name="q2" value="Tokio" required> Tokio<br>
+    <input type="radio" name="q2" value="Osaka"> Osaka<br>
+    <input type="radio" name="q2" value="Kioto"> Kioto<br>
+  </div>
+  <div class="question">
+    <label>3. ¿Cuál es la capital de Brasil?</label><br>
+    <input type="radio" name="q3" value="Brasilia" required> Brasilia<br>
+    <input type="radio" name="q3" value="Río de Janeiro"> Río de Janeiro<br>
+    <input type="radio" name="q3" value="Sao Paulo"> Sao Paulo<br>
+  </div>
+  <div class="question">
+    <label>4. ¿Cuál es la capital de Australia?</label><br>
+    <input type="radio" name="q4" value="Canberra" required> Canberra<br>
+    <input type="radio" name="q4" value="Sídney"> Sídney<br>
+    <input type="radio" name="q4" value="Melbourne"> Melbourne<br>
+  </div>
+  <div class="question">
+    <label>5. ¿Cuál es la capital de Canadá?</label><br>
+    <input type="radio" name="q5" value="Ottawa" required> Ottawa<br>
+    <input type="radio" name="q5" value="Toronto"> Toronto<br>
+    <input type="radio" name="q5" value="Vancouver"> Vancouver<br>
+  </div>
+  <button type="submit">Evaluar</button>
+</form>
+
+<div id="resultado"></div>
+<div id="barchart_material"></div>
+<button onclick="generarPDF()">Generar PDF</button>
+<iframe id="visorPDF" width="100%" height="500px" style="border: 1px solid #ccc; margin-top: 15px;"></iframe>
+<script type="text/javascript" src="Practica3-P3.js"></script>
+</body>
+</html>
