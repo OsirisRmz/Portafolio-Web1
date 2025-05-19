@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="ExPractP3.css">
+	<title>Calcula Popina</title>
+	<script type="text/javascript" src="ExPractP3.js"></script>
+</head>
+<body>
+
+		<h1>Calcula tu Propina</h1>
+		<label for="total">Total a pagar: </label>
+		<input type="text" name="totales" id="total">
+		<datalist id="totales">
+			<option value="100">$100</option>
+			<option value="200">$200</option>
+			<option value="300">$300</option>
+			<option value="400">$400</option>
+		</datalist>
+		<br><br>
+
+		<label for="propina">Propina a agregar: </label>
+		<input type="text" name="propina" id="propina">
+		<datalist>
+			<option value="10">10%</option>
+			<option value="15">15%</option>
+			<option value="20">20%</option>
+			<option value="25">25%</option>
+		</datalist>
+		<br><br>
+
+	<button onclick="calculaPropina()">Calcular propina</button>
+	<p id="resultado"></p>
+</body>
+</html>
