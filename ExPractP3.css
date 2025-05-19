@@ -1,24 +1,25 @@
-body {
+body{
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #EC9DC7;
     margin: 0;
     padding: 20px;
 }
 
-div {
+div{
     margin-bottom: 20px;
 }
 
-h1 {
-    color: #333;
+h1{
+    text-align: center;
+    color: #4B51E7;
 }
 
-label {
+label{
     display: block;
     margin-bottom: 5px;
 }
 
-input {
+input{
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -26,7 +27,7 @@ input {
     border-radius: 4px;
 }
 
-button {
+button{
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
@@ -35,11 +36,11 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #45a049;
+button:hover{
+    background-color: darkred;
 }
 
-p {
+p{
     font-size: 18px;
     color: #333;
 }
